@@ -673,12 +673,12 @@ body.scf-site-body > header h1 span {
   width: 100%;
 }
 .page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-profile-header {
-  width: 105px;
+  width: 110px;
   margin-right: 0;
 }
 .page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-profile-header img.scf-profile-avatar {
   width: 100%;
-  height: 105px;
+  height: 110px;
   border-radius: 50%;
 }
 .page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-user-info-middle {
@@ -717,6 +717,25 @@ body.scf-site-body > header h1 span {
 }
 .page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .scf-profile-header .scf-clear-both {
   display: none;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .userbadges .scf-user-profile-badges {
+  min-height: 185px;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .userbadges .scf-user-profile-badges .dropdown button {
+  background-image: url(../../../../content/dam/scentsy/csssupportfiles/img/header-pattern.png), linear-gradient(to right, #5a005c , #b4298c);
+  border: none;
+  color: #fff;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .userbadges .scf-user-profile-badges .dropdown button:focus {
+  outline: none;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .userbadges .scf-user-profile-badges .dropdown .dropdown-menu li a {
+  transition: all .5s;
+  font-size: 14px;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .userbadges .scf-user-profile-badges .dropdown .dropdown-menu li a:hover {
+  background-image: url(../../../../content/dam/scentsy/csssupportfiles/img/header-pattern.png), linear-gradient(to right, #5a005c , #b4298c);
+  color: #fff;
 }
 /* Styles Form profile */
 .page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab form.scf-profile-form label.scf-profile-form-label {
