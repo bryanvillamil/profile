@@ -3,6 +3,38 @@
 */
 @font-face {
   font-family: 'BetterTimes';
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/better-times.eot');
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/better-times.eot?#iefix') format('embedded-opentype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/better-times.woff') format('woff'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/better-times.ttf') format('truetype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/better-times.svg#better_times') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MoserratRegular';
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-regular.eot');
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-regular.woff') format('woff'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-regular.ttf') format('truetype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-regular.svg#better_times') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MoserratBold';
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-bold.eot');
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-bold.woff') format('woff'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-bold.ttf') format('truetype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-bold.svg#better_times') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MoserratExtraLight';
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.eot');
+  src: url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.eot?#iefix') format('embedded-opentype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.woff') format('woff'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.ttf') format('truetype'), url('http://40.70.1.211:4503/content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.svg#better_times') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'BetterTimes';
   src: url('../../../../content/dam/scentsy/csssupportfiles/fonts/better-times.eot');
   src: url('../../../../content/dam/scentsy/csssupportfiles/fonts/better-times.eot?#iefix') format('embedded-opentype'), url('../../../../content/dam/scentsy/csssupportfiles/fonts/better-times.woff') format('woff'), url('../../../../content/dam/scentsy/csssupportfiles/fonts/better-times.ttf') format('truetype'), url('../../../../content/dam/scentsy/csssupportfiles/fonts/better-times.svg#better_times') format('svg');
   font-weight: normal;
@@ -31,7 +63,7 @@
   src: url('../../../../content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.eot?#iefix') format('embedded-opentype'), url('../../../../content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.woff') format('woff'), url('../../../../content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.ttf') format('truetype'), url('../../../../content/dam/scentsy/csssupportfiles/fonts/montserrat-extralight.svg#better_times') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /*
 Dark Purple: #5a005c
@@ -614,6 +646,127 @@ div.scf-catalog-toolbar button.dropdown-toggle:focus,
 div.scf-catalog-toolbar button.dropdown-toggle:visited{ background: #fff; }
 
 
+/* Styles new in the page Profile */
+button.btn-primary {
+  transition: all .5s;
+}
+/* body.scf-site-body > header {
+  position: relative;
+} */
+body.scf-site-body > header h1 span {
+  display: block;
+}
+/* body.scf-site-body > main {
+  padding-top: 20px;
+} */
+.page-profile .scf-site-content {
+  margin: 0;
+}
+.page-profile .scf-site-primary .userprofile .scf-user-info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.page-profile .scf-site-primary {
+  padding: 0;
+  width: 100%;
+}
+.page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-profile-header {
+  width: 105px;
+  margin-right: 0;
+}
+.page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-profile-header img.scf-profile-avatar {
+  width: 100%;
+  height: 105px;
+  border-radius: 50%;
+}
+.page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-user-info-middle {
+  text-align: center;
+  padding-top: 10px;
+}
+.page-profile .scf-site-primary .userprofile .scf-user-info-card .scf-user-info-middle .userbadges {
+  display: none;
+}
+
+.page-profile .scf-site-primary .userprofile .buttons-profile {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.page-profile .scf-site-primary .userprofile .profile-data ul.nav-tabs {
+  display: flex;
+  justify-content: center;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .scf-profile-header {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .scf-profile-header h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: .1px;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .scf-profile-header button.scf-profile-edit {
+  margin-right: 0;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab .scf-profile-header .scf-clear-both {
+  display: none;
+}
+/* Styles Form profile */
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab form.scf-profile-form label.scf-profile-form-label {
+  font-size: 15px;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab form.scf-profile-form span {
+  color: #333;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab form.scf-profile-form .scf-container-fluid .row {
+  padding-bottom: 0;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content .tab form.scf-profile-form .scf-container-fluid .row .col-sm-6 {
+  padding-bottom: 10px;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content ul.nav-tabs {
+  display: block;
+}
+.page-profile .scf-site-primary .userprofile .profile-data .scf-tab-content ul.nav-tabs li a {
+  background-image: linear-gradient(to right, #5a005c , #b4298c);
+  color: #fff;
+}
+
+.page-profile .scf-site-content-right {
+  padding: 0;
+}
+.page-profile .scf-site-content-right .aem-Grid {
+  display: flex;
+  width: 280px;
+}
+.page-profile .scf-site-content-right .aem-Grid .relationships {
+  text-align: center;
+}
+.page-profile .scf-site-content-right .aem-Grid .relationships h3 {
+  color: #b4298c;
+  font-size: 20px;
+}
+.page-profile .scf-site-content-right .aem-Grid .relationships h3 small {
+  color: #222;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+/* Small devices (tablets, 450px and up) */
+@media (min-width: 450px) {
+  /* Styles New page-profile */
+  body.scf-site-body > header h1 span {
+    display: initial;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
@@ -951,6 +1104,16 @@ div.scf-catalog-toolbar button.dropdown-toggle:visited{ background: #fff; }
   div.scf-catalog-toolbar{
     padding-left: 2em;
   }
+
+
+  /* Styles New page-profile */
+  .page-profile .scf-site-primary {
+    padding: 0 15px;
+  }
+
+  .page-profile .scf-site-content-right {
+    /* padding: 0 15px; */
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -964,6 +1127,7 @@ div.scf-catalog-toolbar button.dropdown-toggle:visited{ background: #fff; }
   div.recently-watched{ top: 52px; }
 
   nav.desktop ul li a{ font-size: 0.78em; }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
